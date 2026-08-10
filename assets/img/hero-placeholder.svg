@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="히어로 이미지 placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C2822"/>
+      <stop offset="55%" stop-color="#1D1B18"/>
+      <stop offset="100%" stop-color="#141311"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="20%" y1="0%" x2="90%" y2="70%">
+      <stop offset="0%" stop-color="#A2703F" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#A2703F" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#F6F4F1" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <circle cx="1500" cy="260" r="520" fill="url(#glow)"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#F6F4F1" fill-opacity="0.5">
+    <text x="960" y="530" font-size="30" font-weight="600">HERO 이미지 자리</text>
+    <text x="960" y="572" font-size="18">1920×1080 권장 · 실제 현장/제품 사진 또는 영상(hero.mp4)으로 교체하세요</text>
+  </g>
+</svg>

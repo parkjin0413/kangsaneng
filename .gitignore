@@ -1,0 +1,11 @@
+# 무드보드/레퍼런스 원본 폴더 — 실제 사이트는 assets/img/ 만 사용합니다.
+# (타 스튜디오 포트폴리오 이미지 포함 + video.mp4·logo2.png는 이미 assets/img/에 복사됨)
+image/
+
+# Claude Code 로컬 스킬 도구 (사이트 소스와 무관)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
